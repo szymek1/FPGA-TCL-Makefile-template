@@ -51,3 +51,9 @@ Several directovies govern the workflow:
 
 ### First use
 Run ```make conf``` to prepare missing directories which ```.gitignore``` skips or move on to any other directive except of ```clean``` as they rely on ```conf```.
+
+## TODOs:
+- multi-language support (allow mixed-language projects)
+- support for non-commercial simulators like Verilator etc...
+- add ```data``` dictionary from which some tesbenches could fetch data for simulations
+- add tests results analysis tool
