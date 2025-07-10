@@ -48,3 +48,6 @@ Several directovies govern the workflow:
 - ```make bit```: generates bitstream and netlist which are stored respectively inside ```bin/bit``` and ```bin/netlist```
 - ```make program_fpga```: programs an FPGA device according to ```device``` field from the Makefile
 - ```make clean```: clears ```bin/``` and ```log/``` directories. ***its doesn't clear ```simulation/```***
+
+### First use
+Run ```make conf``` to prepare missing directories which ```.gitignore``` skips or move on to any other directive except of ```clean``` as they rely on ```conf```.
