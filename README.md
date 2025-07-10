@@ -57,3 +57,4 @@ Run ```make conf``` to prepare missing directories which ```.gitignore``` skips 
 - support for non-commercial simulators like Verilator etc...
 - add ```data``` dictionary from which some tesbenches could fetch data for simulations
 - add tests results analysis tool
+- add instruction how to integrate with CI/CD tools for cutting-edge automation
