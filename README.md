@@ -3,6 +3,7 @@
 Repository containing TCL-Makefile template for FPGA projects intended to automate build, test and program processes.
 This template utilizes TCL scripting language in conjunction with Makefile. It provides a clear template for describing FPGA project:
 - project name
+- top module
 - HDL of choice (Verilog, VHDL, System Verilog)
 - FPGA device for synthezis
 
